@@ -1,0 +1,34 @@
+body{
+    background-image: linear-gradient(to right, rgb(91, 91, 243), rgb(185, 185, 248));
+}
+
+
+.form-label{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#btn{
+    background-color: rgb(7, 7, 206);
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.contain{
+    width: 80%;
+    margin: 0 auto;
+}
+
+i{
+    margin-left: 10px;
+}
+i:hover{
+    font-size: 20px;
+}
+
+li,a{
+    color: #ffffff;   
+}
