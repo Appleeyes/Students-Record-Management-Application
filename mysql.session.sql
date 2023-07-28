@@ -1,6 +1,6 @@
 CREATE TABLE `users` (
     user_id INTEGER NOT NULL AUTO_INCREMENT,
-    fullname VARCHAR(50) NOT NULL,
+    full_name VARCHAR(50) NOT NULL,
     email VARCHAR(50) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
     is_active TINYINT(1) UNSIGNED NOT NULL DEFAULT 1 COMMENT '0 = not active, 1 = active',
@@ -18,7 +18,7 @@ CREATE TABLE `classrooms` (
 -- STUDENTS TABLE
 CREATE TABLE `students` (
     student_id INTEGER NOT NULL AUTO_INCREMENT,
-    full_name VARCHAR(50) NOT NULL,
+    fullname VARCHAR(50) NOT NULL,
     email VARCHAR(50) NOT NULL UNIQUE,
     classroom_id TINYINT NOT NULL,
     grade INTEGER NOT NULL,
